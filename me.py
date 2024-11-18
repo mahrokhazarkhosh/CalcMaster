@@ -28,4 +28,15 @@ def zarb():
 def taghsim():
     label.configure(text=int(E1.get())) / int(E2.get())
 
-#
+#------btn-----
+
+btn1 = tkinter.Button(win, width=20, text="+", command=jam)
+btn1.pack()
+btn2 = tkinter.Button(win, width=20, text="-", command=tafrigh)
+btn2.pack()
+btn3 = tkinter.Button(win, width=20, text="*", command=zarb)
+btn3.pack()
+btn4 = tkinter.Button(win, width=20, text="/", command=taghsim)
+btn4.pack()
+
+win.mainloop()
