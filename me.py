@@ -17,4 +17,15 @@ E1.pack()
 E2 = tkinter.Entry(win)
 E2.pack()
 
+#------تابع محاسبات-----
+
+def jam():
+    label.configure(text=int(E1.get())) + int(E2.get())
+def tafrigh():
+    label.configure(text=int(E1.get())) - int(E2.get())
+def zarb():
+    label.configure(text=int(E1.get())) * int(E2.get())
+def taghsim():
+    label.configure(text=int(E1.get())) / int(E2.get())
+
 #
